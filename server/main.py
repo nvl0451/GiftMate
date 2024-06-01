@@ -15,7 +15,7 @@ app.config['SECRET_KEY'] = 'hui'
 db = SQLAlchemy(app)
 
 client = OpenAI(
-    api_key="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",
+    api_key="API-KEY",
 )
 
 
