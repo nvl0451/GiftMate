@@ -9,7 +9,7 @@ class AuthViewModel: ObservableObject {
 
     func loginUser(email: String, password: String) {
         guard let loginURL = URL(string: "http://127.0.0.1:5000/login") else { return }
-        performAuthRequest(url: loginURL, email: email, password: password) { success, result in
+        AuthService.shared.performAuthRequest(url: loginURL, email: email, password: password) { success, result in
             DispatchQueue.main.async {
                 if success {
                     UserDefaults.standard.set(result, forKey: "userToken")
@@ -25,7 +25,7 @@ class AuthViewModel: ObservableObject {
 
     func registerUser(email: String, login: String, password: String) {
         guard let registerURL = URL(string: "http://127.0.0.1:5000/register") else { return }
-        performRegistrationRequest(url: registerURL, login: login, email: email, password: password) { success, result in
+        AuthService.shared.performRegistrationRequest(url: registerURL, login: login, email: email, password: password) { success, result in
             DispatchQueue.main.async {
                 if success {
                     UserDefaults.standard.set(result, forKey: "userToken")

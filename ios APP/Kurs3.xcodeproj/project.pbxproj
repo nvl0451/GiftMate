@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		097E82322C0E4091003CD13C /* FriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097E82312C0E4091003CD13C /* FriendModel.swift */; };
+		097E823A2C0E44EE003CD13C /* Kurs3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097E82392C0E44EE003CD13C /* Kurs3Tests.swift */; };
 		B89FCFD22BA8DE150035B6B9 /* Kurs3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89FCFD12BA8DE150035B6B9 /* Kurs3App.swift */; };
 		B89FCFD42BA8DE150035B6B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89FCFD32BA8DE150035B6B9 /* ContentView.swift */; };
 		B89FCFD62BA8DE170035B6B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B89FCFD52BA8DE170035B6B9 /* Assets.xcassets */; };
@@ -17,7 +18,7 @@
 		B89FCFE72BBF0DD60035B6B9 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89FCFE62BBF0DD60035B6B9 /* AuthView.swift */; };
 		B89FCFE92BBF0F770035B6B9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89FCFE82BBF0F770035B6B9 /* LoginView.swift */; };
 		B89FCFEB2BBF0F860035B6B9 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89FCFEA2BBF0F860035B6B9 /* RegisterView.swift */; };
-		B89FCFEF2BBF13640035B6B9 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89FCFEE2BBF13640035B6B9 /* utils.swift */; };
+		B89FCFEF2BBF13640035B6B9 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89FCFEE2BBF13640035B6B9 /* AuthService.swift */; };
 		B89FCFF32BBF3D050035B6B9 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89FCFF22BBF3D050035B6B9 /* AuthViewModel.swift */; };
 		B89FCFF52BC1A7170035B6B9 /* HomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89FCFF42BC1A7170035B6B9 /* HomePageViewModel.swift */; };
 		B89FCFF72BC1A7270035B6B9 /* GiftsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89FCFF62BC1A7270035B6B9 /* GiftsListView.swift */; };
@@ -32,8 +33,20 @@
 		B89FD0092BC56CA50035B6B9 /* FriendsPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89FD0082BC56CA50035B6B9 /* FriendsPageView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		097E823B2C0E44EE003CD13C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B89FCFC62BA8DE150035B6B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B89FCFCD2BA8DE150035B6B9;
+			remoteInfo = Kurs3;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		097E82312C0E4091003CD13C /* FriendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendModel.swift; sourceTree = "<group>"; };
+		097E82372C0E44EE003CD13C /* Kurs3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kurs3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		097E82392C0E44EE003CD13C /* Kurs3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kurs3Tests.swift; sourceTree = "<group>"; };
 		B89FCFCE2BA8DE150035B6B9 /* Kurs3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kurs3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B89FCFD12BA8DE150035B6B9 /* Kurs3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kurs3App.swift; sourceTree = "<group>"; };
 		B89FCFD32BA8DE150035B6B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,7 +57,7 @@
 		B89FCFE62BBF0DD60035B6B9 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		B89FCFE82BBF0F770035B6B9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		B89FCFEA2BBF0F860035B6B9 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
-		B89FCFEE2BBF13640035B6B9 /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
+		B89FCFEE2BBF13640035B6B9 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		B89FCFF22BBF3D050035B6B9 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		B89FCFF42BC1A7170035B6B9 /* HomePageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewModel.swift; sourceTree = "<group>"; };
 		B89FCFF62BC1A7270035B6B9 /* GiftsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftsListView.swift; sourceTree = "<group>"; };
@@ -60,6 +73,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		097E82342C0E44EE003CD13C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B89FCFCB2BA8DE150035B6B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -110,10 +130,19 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		097E82382C0E44EE003CD13C /* Kurs3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				097E82392C0E44EE003CD13C /* Kurs3Tests.swift */,
+			);
+			path = Kurs3Tests;
+			sourceTree = "<group>";
+		};
 		B89FCFC52BA8DE150035B6B9 = {
 			isa = PBXGroup;
 			children = (
 				B89FCFD02BA8DE150035B6B9 /* Kurs3 */,
+				097E82382C0E44EE003CD13C /* Kurs3Tests */,
 				B89FCFCF2BA8DE150035B6B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -122,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				B89FCFCE2BA8DE150035B6B9 /* Kurs3.app */,
+				097E82372C0E44EE003CD13C /* Kurs3Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,7 +165,7 @@
 				B89FCFD12BA8DE150035B6B9 /* Kurs3App.swift */,
 				B89FCFD52BA8DE170035B6B9 /* Assets.xcassets */,
 				B89FCFD72BA8DE170035B6B9 /* Preview Content */,
-				B89FCFEE2BBF13640035B6B9 /* utils.swift */,
+				B89FCFEE2BBF13640035B6B9 /* AuthService.swift */,
 			);
 			path = Kurs3;
 			sourceTree = "<group>";
@@ -151,6 +181,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		097E82362C0E44EE003CD13C /* Kurs3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 097E823D2C0E44EE003CD13C /* Build configuration list for PBXNativeTarget "Kurs3Tests" */;
+			buildPhases = (
+				097E82332C0E44EE003CD13C /* Sources */,
+				097E82342C0E44EE003CD13C /* Frameworks */,
+				097E82352C0E44EE003CD13C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				097E823C2C0E44EE003CD13C /* PBXTargetDependency */,
+			);
+			name = Kurs3Tests;
+			productName = Kurs3Tests;
+			productReference = 097E82372C0E44EE003CD13C /* Kurs3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		B89FCFCD2BA8DE150035B6B9 /* Kurs3 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B89FCFDC2BA8DE170035B6B9 /* Build configuration list for PBXNativeTarget "Kurs3" */;
@@ -178,6 +226,10 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
+					097E82362C0E44EE003CD13C = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = B89FCFCD2BA8DE150035B6B9;
+					};
 					B89FCFCD2BA8DE150035B6B9 = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -197,11 +249,19 @@
 			projectRoot = "";
 			targets = (
 				B89FCFCD2BA8DE150035B6B9 /* Kurs3 */,
+				097E82362C0E44EE003CD13C /* Kurs3Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		097E82352C0E44EE003CD13C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B89FCFCC2BA8DE150035B6B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -214,6 +274,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		097E82332C0E44EE003CD13C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097E823A2C0E44EE003CD13C /* Kurs3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B89FCFCA2BA8DE150035B6B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -233,7 +301,7 @@
 				B89FD0032BC5322F0035B6B9 /* GiftIdeasResponse.swift in Sources */,
 				B89FCFD22BA8DE150035B6B9 /* Kurs3App.swift in Sources */,
 				B89FD0052BC5380C0035B6B9 /* FavoritesPageView.swift in Sources */,
-				B89FCFEF2BBF13640035B6B9 /* utils.swift in Sources */,
+				B89FCFEF2BBF13640035B6B9 /* AuthService.swift in Sources */,
 				B89FCFF32BBF3D050035B6B9 /* AuthViewModel.swift in Sources */,
 				B89FCFFB2BC52E260035B6B9 /* FavoritesViewModel.swift in Sources */,
 				B89FCFFF2BC531BD0035B6B9 /* LoginResponse.swift in Sources */,
@@ -244,7 +312,51 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		097E823C2C0E44EE003CD13C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B89FCFCD2BA8DE150035B6B9 /* Kurs3 */;
+			targetProxy = 097E823B2C0E44EE003CD13C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		097E823E2C0E44EE003CD13C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AZ4UFHPF3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = malachite.Kurs3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kurs3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kurs3";
+			};
+			name = Debug;
+		};
+		097E823F2C0E44EE003CD13C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AZ4UFHPF3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = malachite.Kurs3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kurs3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kurs3";
+			};
+			name = Release;
+		};
 		B89FCFDA2BA8DE170035B6B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -425,6 +537,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		097E823D2C0E44EE003CD13C /* Build configuration list for PBXNativeTarget "Kurs3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				097E823E2C0E44EE003CD13C /* Debug */,
+				097E823F2C0E44EE003CD13C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B89FCFC92BA8DE150035B6B9 /* Build configuration list for PBXProject "Kurs3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
