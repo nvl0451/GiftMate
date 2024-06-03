@@ -1,19 +1,14 @@
 import Foundation
 import SwiftUI
 
-struct Friend: Identifiable {
-    let id = UUID()
-    let name: String
-    let interests: String
-    let social: String
-}
 
-struct FriendsPage: View {
+
+struct FriendsPageView: View {
     @State private var searchQuery = ""
-    @State private var friends: [Friend] = [
-        Friend(name: "Алексей", interests: "Программирование, Кино", social: "Twitter"),
-        Friend(name: "Марина", interests: "Искусство, Путешествия", social: "Instagram"),
-        Friend(name: "Иван", interests: "Спорт, Книги", social: "Facebook"),
+    @State private var friends: [FriendModel] = [
+        FriendModel(name: "Алексей", interests: "Программирование, Кино", social: "Twitter"),
+        FriendModel(name: "Марина", interests: "Искусство, Путешествия", social: "Instagram"),
+        FriendModel(name: "Иван", interests: "Спорт, Книги", social: "Facebook"),
     ]
     @ObservedObject var viewModel = HomePageViewModel()
 
@@ -55,8 +50,8 @@ struct FriendsPage: View {
     }
 }
 
-struct FriendsPage_Previews: PreviewProvider {
+struct FriendsPageView_Previews: PreviewProvider {
     static var previews: some View {
-        FriendsPage()
+        FriendsPageView()
     }
 }

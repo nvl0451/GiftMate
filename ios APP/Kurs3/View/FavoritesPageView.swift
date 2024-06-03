@@ -1,7 +1,7 @@
 import Foundation
 import SwiftUI
 
-struct FavoritesPage: View {
+struct FavoritesPageView: View {
     @EnvironmentObject var favoritesViewModel: FavoritesViewModel
     
     var body: some View {
@@ -17,7 +17,7 @@ struct FavoritesPage: View {
     }
 
     @ViewBuilder
-    private func favoriteCard(for favorite: FavoriteItem) -> some View {
+    private func favoriteCard(for favorite: FavoriteItemModel) -> some View {
         HStack {
             VStack(alignment: .leading, spacing: 5) {
                 Text(favorite.name)

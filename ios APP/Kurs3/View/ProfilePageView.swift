@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct ProfilePage: View {
+struct ProfilePageView: View {
     @State private var name: String = ""
     @State private var birthDate = Date()
     @State private var interests: String = ""
@@ -83,8 +83,8 @@ struct PreferencesGroupBoxStyle: GroupBoxStyle {
     }
 }
 
-struct ProfilePage_Previews: PreviewProvider {
+struct ProfilePageView_Previews: PreviewProvider {
     static var previews: some View {
-        ProfilePage()
+        ProfilePageView()
     }
 }

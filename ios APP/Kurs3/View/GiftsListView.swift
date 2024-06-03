@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct GiftsListView: View {
-    var gifts: [Gift]
+    var gifts: [GiftModel]
     @EnvironmentObject var favoritesViewModel: FavoritesViewModel
 
     var body: some View {
@@ -43,7 +43,7 @@ struct GiftsListView: View {
 }
 
 extension FavoritesViewModel {
-    func isFavorite(gift: Gift) -> Bool {
+    func isFavorite(gift: GiftModel) -> Bool {
         return favorites.contains(where: { $0.name == gift.name && $0.url == gift.url })
     }
 }

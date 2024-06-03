@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct HomePage: View {
+struct HomePageView: View {
     @StateObject private var viewModel = HomePageViewModel()
     @State private var interests = ""
     @State private var socialNetworks = ""
@@ -54,15 +54,15 @@ struct HomePage: View {
         
         .sheet(isPresented: $showGiftsListView) {
             
-            let giftObjects = viewModel.selectedGifts?.map { Gift(name: $0, url: URL(string: "https://market.yandex.ru/search?text=" + $0)) } ?? []
+            let giftObjects = viewModel.selectedGifts?.map { GiftModel(name: $0, url: URL(string: "https://market.yandex.ru/search?text=" + $0)) } ?? []
             GiftsListView(gifts: giftObjects)
         }
 
     }
 }
 
-struct HomePage_Previews: PreviewProvider {
+struct HomePageView_Previews: PreviewProvider {
     static var previews: some View {
-        HomePage()
+        HomePageView()
     }
 }
